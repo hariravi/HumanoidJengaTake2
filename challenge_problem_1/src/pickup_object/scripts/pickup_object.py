@@ -2,7 +2,7 @@
 
 import rospy
 
-from AddTwoInts.srv import *
+from add_ints.srv import AddTwoInts
 
 #AddTwoInts = '/../../add_ints/srv/AddTwoInts.srv'
 

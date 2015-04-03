@@ -345,7 +345,7 @@ move_arm_SOURCE_DIR:STATIC=/home/svr2112/challenge_problem_1/src/move_arm
 move_base_BINARY_DIR:STATIC=/home/svr2112/challenge_problem_1/build/move_base
 
 //The directory containing a CMake configuration file for move_base.
-move_base_DIR:PATH=/home/svr2112/challenge_problem_1/devel/share/move_base/cmake
+move_base_DIR:PATH=/home/svr2112/HumanoidJengaTake2/challenge_problem_1/devel/share/move_base/cmake
 
 //Value Computed by CMake
 move_base_SOURCE_DIR:STATIC=/home/svr2112/challenge_problem_1/src/move_base
