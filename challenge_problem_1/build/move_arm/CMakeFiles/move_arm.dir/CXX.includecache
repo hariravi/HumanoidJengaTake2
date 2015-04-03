@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/svr2112/challenge_problem_1/src/move_arm/src/move_arm.cpp
+moveit/move_group_interface/move_group.h
+-
+iostream
+-
+

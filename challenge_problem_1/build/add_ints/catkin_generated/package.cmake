@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "add_ints")
+set(add_ints_MAINTAINER "jvarley <jvarley@todo.todo>")
+set(add_ints_DEPRECATED "")
+set(add_ints_VERSION "0.0.0")
+set(add_ints_BUILD_DEPENDS "message_generation")
+set(add_ints_RUN_DEPENDS "message_runtime")
+set(add_ints_BUILDTOOL_DEPENDS "catkin")

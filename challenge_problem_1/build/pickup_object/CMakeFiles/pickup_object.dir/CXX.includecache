@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/svr2112/challenge_problem_1/src/pickup_object/src/pickup_object.cpp
+ros/ros.h
+-
+move_base/MoveBase.h
+/home/svr2112/challenge_problem_1/src/pickup_object/src/move_base/MoveBase.h
+

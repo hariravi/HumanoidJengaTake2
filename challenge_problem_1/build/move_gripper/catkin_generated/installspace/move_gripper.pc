@@ -1,0 +1,8 @@
+prefix=/home/svr2112/challenge_problem_1/install
+
+Name: move_gripper
+Description: Description of move_gripper
+Version: 0.0.0
+Cflags: -I/home/svr2112/challenge_problem_1/install/include
+Libs: -L/home/svr2112/challenge_problem_1/install/lib 
+Requires: 
