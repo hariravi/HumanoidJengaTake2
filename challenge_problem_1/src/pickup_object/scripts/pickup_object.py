@@ -2,19 +2,22 @@
 
 import rospy
 
+from AddTwoInts.srv import *
+
+#AddTwoInts = '/../../add_ints/srv/AddTwoInts.srv'
 
 if __name__ == '__main__':
-	print 'the hair of renato'
+	print 'checkpoint1'
 
 
     	#initialize the node
     	rospy.init_node('add_client', anonymous=True)
-	print 'the hair of renato2'
+	print 'checkpoint2'
 	# Move base sample call
-	rospy.wait_for_service('add_two_ints_server')
-	print 'the hair of renato3'
+	rospy.wait_for_service('add_two_ints')
+	print 'checkpoint3'
 
-	add_int = rospy.ServiceProxy('add_two_ints_server', '/../../add_ints/srv/AddTwoInts.srv')
+	add_int = rospy.ServiceProxy('add_two_ints', AddTwoInts)
 #    move_base = rospy.ServiceProxy('move_base', '/../../move_base/srv/MoveBase.srv' )
 	distance = .75
 	try:
